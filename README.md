@@ -37,4 +37,4 @@ A logo é provisória. Depoimentos, marcas parceiras, endereço, horários e nú
 
 Envie `index.html`, `styles.css`, `app.js`, `og-image.jpg`, os ícones (`favicon.svg`, `favicon-32.png`, `favicon.ico`, `apple-touch-icon.png`) e a pasta `assets/` para a raiz pública da hospedagem, mantendo essa estrutura.
 
-Depois de publicar, troque `og-image.jpg` nas tags og:image e no JSON-LD pelo endereço completo (https://seudominio/og-image.jpg) para a prévia aparecer no WhatsApp.
+O site está em https://rochapedras.vercel.app. A prévia do WhatsApp usa esse endereço completo em `og:url`, `og:image`, no link canonical e no JSON-LD: se o domínio mudar, troque nesses pontos. Ao trocar `og-image.jpg`, aumente o número em `?v=` para o WhatsApp buscar a imagem nova.
