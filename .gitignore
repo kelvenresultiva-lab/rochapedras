@@ -1,0 +1,8 @@
+# Anotações internas do projeto (o repositório é público)
+CLAUDE.md
+.claude/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
